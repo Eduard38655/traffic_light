@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(199, 199, 189);
+    justify-content: center;
+    flex-direction: column;
+}
+main{
+    width: 110px;
+    height: 210px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 110px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 15px ;
+    border: 2px solid black;
+}
+.container div{
+    width: 100px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ justify-content: space-between;
+}
+.container div input{
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+    
+} input[type="radio"]{
+            width: 20px;
+            height: 20px;
+            -webkit-appearance: none; 
+            -moz-appearance: none;  
+            appearance: none; 
+            background-color: white;
+            border: 2px solid gray;
+            border-radius: 50%;
+            cursor: pointer;
+            position: relative;
+        }
+
+        
+.traffic_light_sick{
+    width: 20px;
+    height: 380px;
+    background-color: black;
+} 
+ 
+
+#traffic_light_base{
+    background: black;
+    width: 110px;
+    height: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
